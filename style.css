@@ -67,10 +67,20 @@ button.Mac:hover {
     line-height: 1.5;
     color: #757373
 }
+
 .services {
    display: inline-flex;
    margin-bottom: 50px
 }
+@media (min-width: 576px){  /* small devices => Landscap phones */
+    .services {
+   display: block;
+   margin-bottom: 50px
+}
+
+}
+
+
 .services .image {
     margin-left: -120px
 }
@@ -94,6 +104,9 @@ button.Mac:hover {
 }
 .three .tetx-3 h1 {
     margin-bottom: 25px
+}
+.tetx-3 img {
+    width: 80%
 }
 .icons {
     display: inline-flex;
