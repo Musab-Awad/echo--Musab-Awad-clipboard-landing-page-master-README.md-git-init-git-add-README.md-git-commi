@@ -72,12 +72,14 @@ button.Mac:hover {
    display: inline-flex;
    margin-bottom: 50px
 }
-@media (min-width: 576px){  /* small devices => Landscap phones */
+@media (max-width: 576px){  /* small devices => Landscap phones */
     .services {
    display: block;
    margin-bottom: 50px
 }
-
+.services .image img {
+    width: 100%
+}
 }
 
 
@@ -117,6 +119,14 @@ button.Mac:hover {
     text-align: center;
     font-family: sans-serif;
 }
+@media (max-width: 576px){
+.icons{
+    display: block;
+    }
+    .icons .icon {
+        width: 100%
+    }
+}
 .icons .icon img {
     height: 40px
 }
@@ -135,6 +145,16 @@ button.Mac:hover {
 .brands {
     display: flex;
     justify-content:space-between;
+}
+@media (max-width: 576px){
+    .brands{
+        display: block;
+         text-align: center
+    }
+    .brands img{
+        margin-bottom: 15px
+       
+    }
 }
 
 .five {
@@ -157,6 +177,12 @@ footer {
 .footer-text {
     display: flex;
     justify-content: space-between
+}
+@media (max-width: 576px){
+    .footer-text {
+    display:block ;
+}
+
 }
 .last-text{
     display:flex;
