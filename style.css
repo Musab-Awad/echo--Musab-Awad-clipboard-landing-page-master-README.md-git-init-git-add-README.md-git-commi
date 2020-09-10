@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.one {
+    text-align: center;
+    margin: 25px
+}
+.one .logo {
+    margin-bottom: 40px
+}
+.text-1  h1{
+    font-family: sans-serif;
+    font-size: 2.5em;
+    color: #868686;
+    margin: 0
+}
+.one .text-1  p{
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    color: #c3bfbf
+}
+   button {
+    font-size: 16px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 5px
+}
+button:focus {
+outline: none;
+}
+
+button.ios {
+    background-color: #24bbaa;
+    box-shadow: 3px 5px 5px #0c9283a1;
+}
+button.ios:hover {
+    color: #d6f5ed
+}
+button.Mac {
+    background-color: #5969fd;
+    box-shadow: 3px 5px 5px #5969fd9e;
+}
+button.Mac:hover {
+    color: #cbcff1
+}
+
+.two {
+    margin: 10% 0;
+}
+.two .text-2 {
+    text-align: center;
+}
+.two .text-2 h1, .three .tetx-3 h1 {
+    font-size: 2em;
+    font-family: sans-serif;
+    color:#4a4a4a;
+}
+.two .text-2 p, .three .tetx-3 p {
+    font-size:1.1em;
+    margin: 0 25% 6%;
+    line-height: 1.5;
+    color: #757373
+}
+.services {
+   display: inline-flex;
+   margin-bottom: 50px
+}
+.services .image {
+    margin-left: -120px
+}
+.service-text{
+    margin: 50px 100px; 
+}
+
+.service-text h1 {
+    font-family: sans-serif;
+    color: #3c3b3b;
+    margin-bottom: 15px
+}
+.service-text p {
+    width: 80%;
+    font-size: 1.1em;
+    color: #6f6e6e;
+    margin-bottom: 50px
+}
+.three {
+    text-align: center;
+}
+.three .tetx-3 h1 {
+    margin-bottom: 25px
+}
+.icons {
+    display: inline-flex;
+    margin: 1% 7% 5%;
+}
+.icons .icon{
+    width : calc(100%/3);
+    text-align: center;
+    font-family: sans-serif;
+}
+.icons .icon img {
+    height: 40px
+}
+.icons .icon h3 {
+    font-size: 1.2em;
+    margin: 25px;
+    color: #3e3c3c;
+}
+.icons .icon p {
+    margin: 0 10px;
+    color: #908d8d;
+}
+.brands {
+    margin: 15%  10% 
+}
+.brands {
+    display: flex;
+    justify-content:space-between;
+}
+
+.five {
+    text-align: center;
+    margin-bottom: 7%;
+}
+.five h1 {
+    color: #525151;
+    margin-bottom: 15px;
+    font-size: 1.8em
+}
+.five p {
+    color: #847d7d;
+    margin-bottom: 35px
+}
+footer {
+    background-color: #f5f6f8;
+    padding: 3% 7%;
+}
+.footer-text {
+    display: flex;
+    justify-content: space-between
+}
+.last-text{
+    display:flex;
+}
+.last-text img {
+    width: 50px;
+    height: 50px;
+    margin-right: 70px
+}
+.about{
+    margin:0 40px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #464646;
+    font-weight: 600
+}
+.footer-text .icons img{
+    margin-left: 15px;
+    
+}
